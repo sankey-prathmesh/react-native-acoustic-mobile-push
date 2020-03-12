@@ -21,7 +21,7 @@ dependencies {
     exclude group: 'com.android.support'
   }
   implementation fileTree(dir: 'libs', include: ['*.jar'])
-  implementation 'com.google.android.gms:play-services-base:16.0.1'
+  implementation 'com.google.android.gms:play-services-base:15.0.1'
   implementation 'com.google.firebase:firebase-messaging:17.1.0'
 
   // Use environment variable ANDROID_X if you're using React Native 0.60 or later
